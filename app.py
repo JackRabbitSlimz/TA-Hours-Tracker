@@ -10,13 +10,13 @@ SUPABASE_URL = st.secrets["SUPABASE_URL"]
 SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-COURSE_NAME = "BIO 301"  # predefined course
-THREE_MONTH_CAP = 180    # example cap (adjust as needed)
+COURSE_NAME = "APES3078A"  # predefined course
+THREE_MONTH_CAP = 100    # example cap (adjust as needed)
 
 RESPONSIBILITIES = [
     "Lab",
     "Marking",
-    "Office Hours",
+    "Quiz",
     "Invigilation",
     "Other"
 ]
